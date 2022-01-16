@@ -37,24 +37,24 @@ All the text input files automatically get detected in the 'pp1data' directory a
 
 **Input:**
 
-Enter 1 for amazon_cells_labelled.txt
-Enter 2 for yelp_labelled.txt
-Enter 3 for imdb_labelled.txt
+* Enter 1 for amazon_cells_labelled.txt
+* Enter 2 for yelp_labelled.txt
+* Enter 3 for imdb_labelled.txt
 
 The user selects either of 1/2/3 as per their choice of data set and the program proceeds with the selected data set to read it from the directory 'pp1data' and process for the given experiments.
 
 **Output:**
 
 For Experiment 1 - 
-	* list of average accuracy per training set size in K folds for smoothing parameter m =0 and m = 1
-	* list of standard deviation per training set size in K folds for both m =0 and m=1
-	* plot of averages of the accuracy (as error bars) as a function of train set size
-	* plot of standard deviations (as error bars) as a function of train set size
+* list of average accuracy per training set size in K folds for smoothing parameter m =0 and m = 1
+* list of standard deviation per training set size in K folds for both m =0 and m=1
+* plot of averages of the accuracy (as error bars) as a function of train set size
+* plot of standard deviations (as error bars) as a function of train set size
 
 For Experiment 2 - 
-	* list of average accuracy for 20 smoothing parameter from m =0, 0.1, 0.2....0.9 and 1, 2...9
-	* list of standard deviation for 20 smoothing parameter from m =0, 0.1, 0.2....0.9 and 1, 2...9
-	* plot of the cross validation accuracy as a function of the smoothing parameter(m)
-	* plot of standard deviations (as error bars) as a function of the smoothing parameter(m)
+* list of average accuracy for 20 smoothing parameter from m =0, 0.1, 0.2....0.9 and 1, 2...9
+* list of standard deviation for 20 smoothing parameter from m =0, 0.1, 0.2....0.9 and 1, 2...9
+* plot of the cross validation accuracy as a function of the smoothing parameter(m)
+* plot of standard deviations (as error bars) as a function of the smoothing parameter(m)
 
 
